@@ -19,6 +19,14 @@ const CallToAction = () => {
             Join healthcare providers who have revolutionized their care delivery with AIRO's intelligent optimization engine.
           </p>
           
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button className="text-base px-8 py-6 bg-white hover:bg-gray-100 text-airo-700">
+              Schedule a Demo
+            </Button>
+            <Button variant="outline" className="text-base px-8 py-6 text-white border-white hover:bg-white/10">
+              Contact Sales
+            </Button>
+          </div>
         </div>
       </div>
     </section>
