@@ -1,7 +1,7 @@
 
 import React from 'react';
 import FeatureCard from '../ui/FeatureCard';
-import { Calendar, Clock, Activity, Database, Users, Map, Check, Info } from 'lucide-react';
+import { Calendar, Clock, Activity, Database, Users, Map, Check, Info, MessageSquare, Shield, Scale, CheckCircle } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -52,6 +52,30 @@ const Features = () => {
       icon: Database,
       title: "Rota Impact Forecasting",
       description: "Assesses long-term rota stability, considering staff availability trends, seasonal fluctuations, and new client packages."
+    },
+    {
+      id: 9,
+      icon: Shield,
+      title: "Attendance Fallback & Visit Logging",
+      description: "Auto-logs visits with GPS validation when check-in fails, requests carer confirmation, and updates records in real-time."
+    },
+    {
+      id: 10,
+      icon: MessageSquare,
+      title: "Client Communication Automation",
+      description: "Notifies clients via SMS, app, or email in real-time about carer delays, visit reschedules, or alternative carers."
+    },
+    {
+      id: 11,
+      icon: CheckCircle,
+      title: "Pre-Shift Carer Confirmation",
+      description: "Requires carers to confirm their rota by Sunday 6:00 PM, with auto-escalation to managers for non-confirmation."
+    },
+    {
+      id: 12,
+      icon: Scale,
+      title: "Fairness Engine",
+      description: "Ensures equitable distribution of shifts, prevents favouritism, and improves morale through fair workload planning."
     }
   ];
 
