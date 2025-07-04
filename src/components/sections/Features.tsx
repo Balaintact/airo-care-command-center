@@ -1,7 +1,7 @@
 
 import React from 'react';
 import FeatureCard from '../ui/FeatureCard';
-import { Calendar, Clock, Activity, Database, Users, Map, Check, Info, MessageSquare, Shield, Scale, CheckCircle } from 'lucide-react';
+import { Calendar, Clock, Activity, Database, Users, Map, Check, Info, MessageSquare, Shield, Scale, CheckCircle, Brain, TrendingUp, Cpu, MonitorSpeaker, Zap, Target, QrCode, Key, RotateCcw, RefreshCw, Settings, Cog, Layers, Workflow } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -76,6 +76,90 @@ const Features = () => {
       icon: Scale,
       title: "Fairness Engine",
       description: "Ensures equitable distribution of shifts, prevents favouritism, and improves morale through fair workload planning."
+    },
+    {
+      id: 13,
+      icon: Brain,
+      title: "AI-Driven Predictive Analytics",
+      description: "Utilizes machine learning algorithms to analyze patient data and predict health conditions, enabling proactive care management."
+    },
+    {
+      id: 14,
+      icon: TrendingUp,
+      title: "Data-Driven Insights",
+      description: "Provides actionable insights based on comprehensive data analysis, helping care providers make informed decisions and improve outcomes."
+    },
+    {
+      id: 15,
+      icon: Cpu,
+      title: "Digital Twin Technology",
+      description: "Creates digital replicas of patients to simulate and monitor their health conditions in real-time for enhanced care delivery."
+    },
+    {
+      id: 16,
+      icon: MonitorSpeaker,
+      title: "Dynamic Health Monitoring",
+      description: "Allows continuous monitoring and assessment of patient health, facilitating timely interventions and personalized care."
+    },
+    {
+      id: 17,
+      icon: Target,
+      title: "Holistic Health Monitoring",
+      description: "Ensures predictive models and digital twins work together seamlessly to provide a comprehensive view of patient health."
+    },
+    {
+      id: 18,
+      icon: Zap,
+      title: "Enhanced Accuracy",
+      description: "Improves the accuracy and reliability of health predictions by combining real-time data with advanced simulation techniques."
+    },
+    {
+      id: 19,
+      icon: QrCode,
+      title: "Dynamic QR Code System",
+      description: "Implements time-synchronized QR codes for secure and accurate login/logout processes from any location."
+    },
+    {
+      id: 20,
+      icon: Key,
+      title: "Enhanced Security & Flexibility",
+      description: "Provides care providers with a flexible and secure method for managing access and tracking activities."
+    },
+    {
+      id: 21,
+      icon: RotateCcw,
+      title: "Real-Time Data Synchronization",
+      description: "Ensures real-time synchronization of data across mobile and web applications, providing up-to-date information to all users."
+    },
+    {
+      id: 22,
+      icon: RefreshCw,
+      title: "Operational Efficiency",
+      description: "Reduces data discrepancies and ensures all stakeholders have access to the latest information for optimal decision-making."
+    },
+    {
+      id: 23,
+      icon: Settings,
+      title: "Automated Shift Allocation",
+      description: "Uses algorithms to automatically allocate shifts, reducing administrative workload and minimizing scheduling errors."
+    },
+    {
+      id: 24,
+      icon: Cog,
+      title: "Process Streamlining",
+      description: "Enhances user experience and operational efficiency by automating routine tasks and transactions."
+    },
+    {
+      id: 25,
+      icon: Layers,
+      title: "Unified Platform",
+      description: "Combines multiple functionalities into a single platform, reducing the need for multiple software solutions."
+    },
+    {
+      id: 26,
+      icon: Workflow,
+      title: "Lower Operational Costs",
+      description: "Streamlines processes and reduces resources needed to manage separate systems, improving overall cost efficiency."
     }
   ];
 
