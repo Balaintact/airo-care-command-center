@@ -28,6 +28,14 @@ const Hero = () => {
             continuity of care and responsive service delivery.
           </p>
           
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button className="text-base px-8 py-6 bg-airo-500 hover:bg-airo-600">
+              Request Demo
+            </Button>
+            <Button variant="outline" className="text-base px-8 py-6 text-airo-700 border-airo-300 hover:bg-airo-100/50">
+              Learn More
+            </Button>
+          </div>
           
           <a href="#features" className="flex items-center mt-16 text-gray-600 hover:text-airo-700 transition-colors">
             <span className="mr-2">Explore Features</span>
