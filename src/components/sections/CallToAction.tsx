@@ -16,7 +16,7 @@ const CallToAction = () => {
         <div className="text-center max-w-4xl mx-auto text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Care Operations?</h2>
           <p className="text-xl mb-10 text-airo-100">
-            Join healthcare providers who have revolutionized their care delivery with AIRO's intelligent optimization engine.
+            Join healthcare providers who have revolutionized their care delivery with Cairo's intelligent optimization engine.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

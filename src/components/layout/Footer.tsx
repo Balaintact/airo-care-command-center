@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Image from 'next/image';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,14 +10,18 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="h-8 w-8 rounded-full bg-white flex items-center justify-center">
-                <span className="text-airo-700 font-bold text-lg">A</span>
-              </div>
-              <span className="text-xl font-bold">AIRO</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <Image
+                src="/careairo-logo.png"
+                alt="Cairo Logo"
+                width={32}
+                height={32}
+                className="h-8 w-auto"
+              />
+              <span className="text-xl font-bold">Cairo</span>
             </div>
             <p className="text-airo-100 text-sm">
-              AI Resource Optimisation Engine - Transforming care management through intelligent automation.
+              Intelligent Care Management - Transforming care delivery through intelligent automation.
             </p>
           </div>
           
@@ -53,7 +58,7 @@ const Footer = () => {
         
         <div className="border-t border-airo-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-airo-100 text-sm">
-            &copy; {currentYear} AIRO. All rights reserved.
+            &copy; {currentYear} Cairo. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-airo-100 hover:text-white transition-colors">

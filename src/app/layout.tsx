@@ -6,8 +6,13 @@ import ClientProviders from '@/components/ClientProviders'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Cairo Lovable Design Template',
+  title: 'Cairo - Lovable Design Template',
   description: 'A modern design template built with Next.js and shadcn/ui',
+  icons: {
+    icon: '/careairo-logo.png',
+    shortcut: '/careairo-logo.png',
+    apple: '/careairo-logo.png',
+  },
 }
 
 export default function RootLayout({
@@ -17,6 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/careairo-logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/careairo-logo.png" type="image/png" />
+      </head>
       <body className={inter.className}>
         <ClientProviders>
           {children}

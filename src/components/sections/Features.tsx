@@ -169,7 +169,7 @@ const Features = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">Powerful AI-Driven Features</h2>
           <p className="text-lg text-gray-700">
-            AIRO's intelligent systems work seamlessly together to transform care management, 
+            Cairo's intelligent systems work seamlessly together to transform care management, 
             optimize resources, and enhance service quality.
           </p>
         </div>

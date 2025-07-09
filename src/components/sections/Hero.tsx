@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-gray-700 mb-8 max-w-3xl">
-            AIRO is the intelligent command center that merges automation, 
+            Cairo is the intelligent command center that merges automation, 
             analytics, and AI to optimize workforce utilization while ensuring 
             continuity of care and responsive service delivery.
           </p>
