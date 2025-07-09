@@ -23,20 +23,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-gray-700 mb-8 max-w-3xl">
-            AIRO is the intelligent command center that merges automation, 
+            Cairo is the intelligent command center that merges automation, 
             analytics, and AI to optimize workforce utilization while ensuring 
             continuity of care and responsive service delivery.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="text-base px-8 py-6 bg-airo-500 hover:bg-airo-600">
-              Request Demo
-            </Button>
-            <Button variant="outline" className="text-base px-8 py-6 text-airo-700 border-airo-300 hover:bg-airo-100/50">
-              Learn More
-            </Button>
-          </div>
-          
+                    
           <a href="#features" className="flex items-center mt-16 text-gray-600 hover:text-airo-700 transition-colors">
             <span className="mr-2">Explore Features</span>
             <ArrowDown className="h-4 w-4 animate-pulse-gentle" />

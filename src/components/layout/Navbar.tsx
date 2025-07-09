@@ -1,5 +1,8 @@
 
+"use client";
+
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { List, X } from 'lucide-react';
 
@@ -13,11 +16,16 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo and brand name */}
-          <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-full bg-gradient-to-r from-airo-500 to-airo-700 flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
-            <span className="text-xl font-bold gradient-text">AIRO</span>
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/careairo-logo.png"
+              alt="Cairo Logo"
+              width={40}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
+            <span className="text-xl font-bold gradient-text">Cairo</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -26,7 +34,7 @@ const Navbar = () => {
             <a href="#benefits" className="text-gray-700 hover:text-airo-600 transition-colors">Benefits</a>
             <a href="#testimonials" className="text-gray-700 hover:text-airo-600 transition-colors">Testimonials</a>
             <Button variant="default" className="bg-airo-500 hover:bg-airo-600">
-              Request Demo
+              Login
             </Button>
           </div>
           

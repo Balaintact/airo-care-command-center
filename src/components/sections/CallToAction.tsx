@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
   return (
@@ -14,19 +13,10 @@ const CallToAction = () => {
       
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-4xl mx-auto text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Care Operations?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mt-20 mb-6">Ready to Transform Your Care Operations?</h2>
           <p className="text-xl mb-10 text-airo-100">
-            Join healthcare providers who have revolutionized their care delivery with AIRO's intelligent optimization engine.
+            Join healthcare providers who have revolutionized their care delivery with Cairo's intelligent optimization engine.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="text-base px-8 py-6 bg-white hover:bg-gray-100 text-airo-700">
-              Schedule a Demo
-            </Button>
-            <Button variant="outline" className="text-base px-8 py-6 text-white border-white hover:bg-white/10">
-              Contact Sales
-            </Button>
-          </div>
         </div>
       </div>
     </section>
