@@ -23,11 +23,6 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-700 hover:text-airo-600 transition-colors">Features</a>
-            <a href="#benefits" className="text-gray-700 hover:text-airo-600 transition-colors">Benefits</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-airo-600 transition-colors">Testimonials</a>
-            <Button variant="default" className="bg-airo-500 hover:bg-airo-600">
-              Request Demo
-            </Button>
           </div>
           
           {/* Mobile Menu Button */}
@@ -44,15 +39,6 @@ const Navbar = () => {
             <a href="#features" className="block py-2 text-gray-700 hover:text-airo-600 transition-colors">
               Features
             </a>
-            <a href="#benefits" className="block py-2 text-gray-700 hover:text-airo-600 transition-colors">
-              Benefits
-            </a>
-            <a href="#testimonials" className="block py-2 text-gray-700 hover:text-airo-600 transition-colors">
-              Testimonials
-            </a>
-            <Button variant="default" className="w-full mt-2 bg-airo-500 hover:bg-airo-600">
-              Request Demo
-            </Button>
           </div>
         )}
       </div>
